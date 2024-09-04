@@ -32,17 +32,28 @@
             list-style: none;
             margin: 30px;
         }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+
+        }
+        nav ul li a:hover{
+            color: rgb(128, 128, 228);
+            font-weight: bold;
+
+        }
         .left{
             font-size: 1.6rem;
         }
         .firstsection{
             justify-content: space-around;
             display: flex;
-            margin: 20px;
+            margin: 80px;
         }
         .leftsection{
             /* background-color: black; */
             font-size: 3rem;
+            margin: 30px;
             /* background-color: black; */
             
         }
@@ -64,6 +75,9 @@
         .purple{
             color: orange;
         }
+        #element{
+            color: rgb(134, 132, 255);
+        }
 
     </style>
 </head>
@@ -72,14 +86,14 @@
     <header>
         <nav>
             <dev class= "left"> HIMANSHU's Portfolio </dev>
-            <dev class = "right"> 
+            <dev class = "right">   
                 <ul>
-                    <li>HOME</li>
-                    <li>PROJECTS</li>
-                    <li>SERVICES</li>
-                    <li>ABOUT ME</li>
-                    <li>COONTECTS</li>
-                    <li>RESUME</li>
+                    <li><a href="https://www.google.com/" target="_blank">HOME</li></a>
+                    <li><a href="/">PROJECTS</li></a>
+                    <li><a href="/">SERVICES</li></a>
+                    <li><a href="/">ABOUT ME</li></a>
+                    <li><a href="/">COONTECTS</li></a>
+                    <li><a href="/">RESUME</li></a>
 
                 </ul>
             </dev>
@@ -93,6 +107,7 @@
                 <div>
                     I'm a Embedded Engineer and robotics Enthusiast.
                 </div>
+                <span id="element"></span>
             </div>
             <dev class = "rightsection">
                 <img src="./resources/mouse.jpg" alt="">
@@ -101,6 +116,14 @@
 
         </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Embedded Engineer', 'ROS Engineer','PCB Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+
 </body>
 
 </html>
