@@ -15,7 +15,8 @@
             background-color: rgb(11, 5, 60);
             color: white;
         }
-        nav{
+
+        nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -23,60 +24,87 @@
             background-color: rgb(26, 31, 122);
 
         }
-        nav ul{
+
+        nav ul {
             display: flex;
             justify-content: center;
 
         }
-        nav ul li{
+
+        nav ul li {
             list-style: none;
             margin: 30px;
         }
-        nav ul li a{
+
+        nav ul li a {
             text-decoration: none;
             color: white;
 
         }
-        nav ul li a:hover{
+
+        nav ul li a:hover {
             color: rgb(128, 128, 228);
             font-weight: bold;
 
         }
-        .left{
+
+        main hr {
+            border: 0;
+            background: rgb(131, 91, 250);
+            height: 2px;
+            margin: auto 90px;
+
+        }
+
+        .left {
             font-size: 1.6rem;
         }
-        .firstsection{
+
+        .firstsection {
             justify-content: space-around;
             display: flex;
             margin: 80px;
         }
-        .leftsection{
+
+        .leftsection {
             /* background-color: black; */
             font-size: 3rem;
             margin: 30px;
             /* background-color: black; */
-            
+
         }
-        .rightsection{
+
+        .rightsection {
             /* background-color: black; */
-           
-            
+
+
         }
+
         .rightsection img {
-            
+
             margin: 30px;
             width: 80%;
-            
+
         }
-        .firstsection > dev{
+
+        .firstsection>dev {
             width: 30%;
 
         }
-        .purple{
+
+        .purple {
             color: orange;
         }
-        #element{
+
+        #element {
             color: rgb(134, 132, 255);
+        }
+        .secondsection{
+            margin: 40px;
+            /* color: rebeccapurple; */
+        }
+        .text_gray{
+            color: gray;
         }
 
     </style>
@@ -85,8 +113,8 @@
 <body>
     <header>
         <nav>
-            <dev class= "left"> HIMANSHU's Portfolio </dev>
-            <dev class = "right">   
+            <dev class="left"> HIMANSHU's Portfolio </dev>
+            <dev class="right">
                 <ul>
                     <li><a href="https://www.google.com/" target="_blank">HOME</li></a>
                     <li><a href="/">PROJECTS</li></a>
@@ -101,28 +129,34 @@
     </header>
 
     <main>
-        <section class = "firstsection">
-            <div class = "leftsection">
-                Hi my name is <span class = "purple"> HIMANSHU </span> Shiva.
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi my name is <span class="purple"> HIMANSHU </span> Shiva.
                 <div>
                     I'm a Embedded Engineer and robotics Enthusiast.
                 </div>
                 <span id="element"></span>
             </div>
-            <dev class = "rightsection">
+            <dev class="rightsection">
                 <img src="./resources/mouse.jpg" alt="">
-                right
-            </div>
+                </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text_gray">what I've done so far....</span>
+            <h1>Experience</h1>
+
 
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Embedded Engineer', 'ROS Engineer','PCB Designer'],
-          typeSpeed: 50,
+            strings: ['Embedded Engineer', 'ROS Engineer', 'PCB Designer'],
+            typeSpeed: 50,
         });
-      </script>
+    </script>
 
 </body>
 
