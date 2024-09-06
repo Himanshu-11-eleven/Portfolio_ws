@@ -8,9 +8,7 @@ main hr {
 
 }
 
-.left {
-    font-size: 1.6rem;
-}
+
 
 .firstsection {
     justify-content: space-around;
@@ -60,3 +58,4 @@ main hr {
 .text_gray {
     color: gray;
 }
+

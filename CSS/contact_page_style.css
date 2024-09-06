@@ -1,9 +1,4 @@
 
-/* body {
-    background:linear-gradient(to left,rgb(2, 2, 77),rgb(0, 46, 73));
-    background-attachment: fixed;
-    color: white;
-} */
 
 main .contact_container{
     height: 100vh;
@@ -49,6 +44,13 @@ main div form .input_feild
     
     
 }
+main hr {
+    border: 0;
+    background: rgb(131, 91, 250);
+    height: 2px;
+    margin: 3px 0px;
+
+}
 
 
 main div form .contact_message{
@@ -60,4 +62,22 @@ main div form .contact_message{
     padding-left: 20px;
     padding-top: 10px;
 }
+
+
+main div form button{
+    /*     display: inherit; */
+        border: none;
+        outline: none;
+        width: 100px;
+        height: 40px;
+    /*     justify-content: center; */
+    /*     align-content: center; */
+        align-items: center;
+    /*     margin: auto; */
+    /*     padding: 23px; */
+        border-radius: 15px;
+        background: linear-gradient(270deg, rgb(154, 154, 255), rgb(109, 101, 255));
+        cursor: pointer;
+        
+    }
 
