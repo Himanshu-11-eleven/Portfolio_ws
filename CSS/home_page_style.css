@@ -1,0 +1,62 @@
+
+
+main hr {
+    border: 0;
+    background: rgb(131, 91, 250);
+    height: 2px;
+    margin: auto 90px;
+
+}
+
+.left {
+    font-size: 1.6rem;
+}
+
+.firstsection {
+    justify-content: space-around;
+    display: flex;
+    margin: 80px;
+}
+
+.leftsection {
+    /* background-color: black; */
+    font-size: 3rem;
+    margin: 30px;
+    /* background-color: black; */
+
+}
+
+.rightsection {
+    /* background-color: black; */
+
+
+}
+
+.rightsection img {
+
+    margin: 30px;
+    width: 80%;
+
+}
+
+.firstsection>dev {
+    width: 30%;
+
+}
+
+.purple {
+    color: orange;
+}
+
+#element {
+    color: rgb(134, 132, 255);
+}
+
+.secondsection {
+    margin: 40px;
+    /* color: rebeccapurple; */
+}
+
+.text_gray {
+    color: gray;
+}

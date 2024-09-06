@@ -1,0 +1,63 @@
+
+/* body {
+    background:linear-gradient(to left,rgb(2, 2, 77),rgb(0, 46, 73));
+    background-attachment: fixed;
+    color: white;
+} */
+
+main .contact_container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    margin-top: 100px;
+
+}
+
+main div .contact_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:20px;
+    align-items: start;
+
+}
+
+main div form .contact_left_title{
+    color: rgb(94, 92, 254);
+    font-size: 23px;
+    font-weight:600;
+    margin: 10px 0  ;
+
+}
+main div form div hr{
+    border: 0;
+    width: 100px;
+    height: 5px;
+    background-color: rgb(94, 92, 254);
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+main div form .input_feild
+{
+    border: none;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+    
+}
+
+
+main div form .contact_message{
+    outline: none;
+    border: none;
+    height: 140px;
+    width: 220px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+

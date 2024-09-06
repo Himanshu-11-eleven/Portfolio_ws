@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:linear-gradient(to left,rgb(2, 2, 77),rgb(0, 46, 73));
+    background-attachment: fixed;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    /* background-color: rgb(26, 31, 122); */
+    background:linear-gradient(to left,rgb(0, 46, 73),rgb(2, 2, 77));
+    border:1px solid rgb(223, 240, 255);
+    outline:none;
+    border-radius: 25px;
+    margin: 30px 40px;
+
+}
+
+nav ul {
+    display: flex;  
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(128, 128, 228);
+    /* font-weight: bold; */
+
+}
+
+main hr {
+    border: 0;
+    background: rgb(131, 91, 250);
+    height: 2px;
+    margin: auto 90px;
+
+}
+
+.Heading {
+    font-size: 1.6rem;
+}
+
+
