@@ -26,14 +26,16 @@ main hr {
 
 .rightsection {
     /* background-color: black; */
+    display: flex;
+    justify-content: center;
 
 
 }
 
 .rightsection img {
 
-    margin: 30px;
-    width: 80%;
+    margin: 0px 60px;
+    width: 60%;
 
 }
 

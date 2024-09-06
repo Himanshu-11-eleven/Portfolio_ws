@@ -1,6 +1,16 @@
 
 
-main .contact_container{
+
+
+
+main {
+    --my_height: 40px;
+    --my_width:40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .contact_container {
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -9,75 +19,70 @@ main .contact_container{
 
 }
 
-main div .contact_left{
+main .contact_container .contact_left {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap:20px;
+    gap: 20px;
     align-items: start;
 
 }
 
-main div form .contact_left_title{
+main .contact_container form .contact_left_title {
     color: rgb(94, 92, 254);
-    font-size: 23px;
-    font-weight:600;
-    margin: 10px 0  ;
+    font-size: 2.12rem;
+    /* font-weight: 8rem; */
+    margin: 10px 0;
 
 }
-main div form div hr{
+
+main .contact_container form div hr {
     border: 0;
-    width: 100px;
-    height: 5px;
+    width: 150px;
+    height: 7px;
     background-color: rgb(94, 92, 254);
     border-radius: 5px;
-    margin-top: 3px;
+    margin: 10px 0px;
 }
 
-main div form .input_feild
-{
+main .contact_container form .input_feild {
     border: none;
     height: 40px;
-    width: 220px;
+    width: 320px;
     border-radius: 20px;
     padding-left: 20px;
-    
-    
-}
-main hr {
-    border: 0;
-    background: rgb(131, 91, 250);
-    height: 2px;
-    margin: 3px 0px;
+
 
 }
 
 
-main div form .contact_message{
+main .contact_container form .contact_message {
     outline: none;
     border: none;
     height: 140px;
-    width: 220px;
+    width: 320px;
     border-radius: 25px;
     padding-left: 20px;
     padding-top: 10px;
 }
 
 
-main div form button{
+main .contact_container form button {
     /*     display: inherit; */
-        border: none;
-        outline: none;
-        width: 100px;
-        height: 40px;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
     /*     justify-content: center; */
     /*     align-content: center; */
-        align-items: center;
+    align-items: center;
     /*     margin: auto; */
     /*     padding: 23px; */
-        border-radius: 15px;
-        background: linear-gradient(270deg, rgb(154, 154, 255), rgb(109, 101, 255));
-        cursor: pointer;
-        
-    }
+    border-radius: 15px;
+    background: linear-gradient(45deg, rgb(154, 154, 255), rgb(109, 101, 255));
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
 
+}
