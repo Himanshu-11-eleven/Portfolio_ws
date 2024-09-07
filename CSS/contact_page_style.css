@@ -75,7 +75,6 @@ main .contact_container form button {
     height: 50px;
     /*     justify-content: center; */
     /*     align-content: center; */
-    align-items: center;
     /*     margin: auto; */
     /*     padding: 23px; */
     border-radius: 15px;
@@ -84,6 +83,8 @@ main .contact_container form button {
     font-size: 1.2rem;
     font-weight: bold;
     color: white;
+    transition: all 0.3s ;
+    justify-content: center;
 
 }
 
@@ -91,6 +92,7 @@ main .contact_container form button:hover {
 
     background: linear-gradient(45deg, rgb(192, 34, 255), rgb(69, 227, 255));
     /* border: 2px solid rgb(63, 28, 145); */
+    transform: translateY(-5px);
 }
 
 main .contact_container form button:active {

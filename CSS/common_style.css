@@ -9,8 +9,13 @@ body {
     color: white;
 }
 
+header{
+    position: sticky;
+    top: 20px;
+}
 
 nav {
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +49,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(128, 128, 228);
+    transform: translateY(-20px);
     /* font-weight: bold; */
 
 }
