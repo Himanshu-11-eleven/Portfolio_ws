@@ -3,15 +3,21 @@
 
 
 
-main {
+/* main {
     --my_height: 40px;
     --my_width:40px;
+    display: flex;
+    justify-content: space-around;
+} */
+
+.contact_div
+{
     display: flex;
     justify-content: space-around;
 }
 
 main .contact_container {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-evenly;
     align-items: first baseline;
@@ -22,15 +28,18 @@ main .contact_container {
 main .contact_container .contact_left {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 20px;
-    align-items: start;
+    align-items: center;
 
 }
 
 main .contact_container form .contact_left_title {
-    color: rgb(94, 92, 254);
-    font-size: 2.12rem;
+    background:linear-gradient(60deg,rgb(120, 110, 255),rgb(248, 58, 255));
+    background-clip: text;
+
+    color: transparent;
+    font-size: 2.12rem; 
     /* font-weight: 8rem; */
     margin: 10px 0;
 
@@ -73,7 +82,7 @@ main .contact_container form button {
     outline: none;
     width: 150px;
     height: 50px;
-    /*     justify-content: center; */
+    /* justify-self: center; */
     /*     align-content: center; */
     /*     margin: auto; */
     /*     padding: 23px; */
@@ -84,7 +93,7 @@ main .contact_container form button {
     font-weight: bold;
     color: white;
     transition: all 0.3s ;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
@@ -101,3 +110,5 @@ main .contact_container form button:active {
     /* border: 2px solid rgb(63, 28, 145); */
     color: rgb(242, 99, 255);
 }
+
+

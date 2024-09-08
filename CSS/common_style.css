@@ -5,13 +5,25 @@
 
 body {
     background:linear-gradient(to left,rgb(2, 2, 77),rgb(0, 46, 73));
+    /* background:linear-gradient(to left,rgb(255, 178, 251),rgb(174, 225, 255)); */
     background-attachment: fixed;
     color: white;
 }
 
 header{
-    position: sticky;
+    position:sticky;
+    width: 100vw;
+    /* margin: 5vh 10vw; */
     top: 20px;
+    z-index: 10;
+
+}
+
+nav .right
+{
+    display: flex;
+    border: 0px;
+    margin: 0px;
 }
 
 nav {
@@ -22,7 +34,7 @@ nav {
     height: 60px;
     /* background-color: rgb(26, 31, 122); */
     background:linear-gradient(to left,rgb(0, 46, 73),rgb(2, 2, 77));
-    border:1px solid rgb(223, 240, 255);
+    border:2px solid rgb(223, 240, 255);
     outline:none;
     border-radius: 25px;
     margin: 30px 40px;
@@ -57,10 +69,20 @@ nav ul li a:hover {
 
 
 .Heading {
-    margin-left: 100px;
+    margin-left: 40px;
     font-size: 1.6rem;
 }
 
+
+footer{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.377);
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+}
 
     
 
