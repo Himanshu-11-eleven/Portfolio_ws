@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background:linear-gradient(to left,rgb(2, 2, 77),rgb(0, 46, 73));
     /* background:linear-gradient(to left,rgb(255, 178, 251),rgb(174, 225, 255)); */
