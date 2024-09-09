@@ -20,6 +20,8 @@ header{
     /* margin: 5vh 10vw; */
     top: 20px;
     z-index: 10;
+    /* filter: blur(10px);  */
+    
 
 }
 
@@ -36,9 +38,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    /* background-color: rgb(26, 31, 122); */
-    background:linear-gradient(to left,rgb(0, 46, 73),rgb(2, 2, 77));
+    background-color: rgba(0, 0, 0, 0.308);
+    backdrop-filter: blur(10px);
+    /* box-shadow: 3px 3px 3px black; */
+    
+    /* background:linear-gradient(to left,rgb(0, 46, 73),rgb(2, 2, 77)); */
     border:2px solid rgb(223, 240, 255);
+    /* border-left: 1px solid rgba(255, 255, 255, 0.192); */
+    /* border-top: 1px solid rgba(255, 255, 255, 0.199); */
     outline:none;
     border-radius: 25px;
     margin: 30px 40px;
