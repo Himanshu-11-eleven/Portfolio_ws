@@ -18,7 +18,7 @@ body {
 header{
     display: flex;
     position:sticky;
-    margin: 5vh 2vw;
+    margin: 3vh 2vw;
     top: 20px;
     z-index: 10;
     /* filter: blur(10px);  */
@@ -93,7 +93,7 @@ footer {
     /* width: 100vw; */
     /* flex-shrink: 1; */
     background-color: rgba(44, 44, 44, 0.363);
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 300px;
     padding:0;
@@ -132,6 +132,8 @@ footer ul li a{
 
 footer .quickLinks
 {
+    position: absolute;
+    left: 300px;
     padding-top: 20px;
     /* margin-top: 20px; */
     display: flex;
@@ -202,6 +204,7 @@ footer .socialMediaLinks ul li{
 footer .backToTop{
     position: absolute;
     top:-30px;
+    filter: invert();
 }
 
 footer .backToTop img{
@@ -223,4 +226,32 @@ footer .copyrightBar
     width: 100%;
   /* padding: 20px; */
 }
+
+
+footer .contactMe
+{
+    position: absolute;
+    top: 70px;
+   width: 30%;
+    /* border: 2px solid red; */
+}
+
+footer .contactMe ul{
+    /* border:2px solid orange; */
+    align-items: start;
+
+
+
+}
+
+footer .contactMe ul li {
+    /* border: 2px solid white; */
+    justify-content: flex-start;
+    width: inherit;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 10px;
+    gap:20px
+}
+
 
