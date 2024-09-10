@@ -85,44 +85,68 @@ nav ul li a:hover {
     font-size: 1.6rem;
 }
 
-footer{
+footer {
+    position: relative;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
     display: flex;
+    /* width: 100vw; */
     /* flex-shrink: 1; */
     background-color: rgba(44, 44, 44, 0.363);
     justify-content: space-evenly;
     align-items: center;
-    height: 30vh;
+    height: 300px;
     padding:0;
     margin:0;
+
     /* border-radius: 40px; */
     
     
     
 }
+footer *
+{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 1; */
+}
 
+footer ul{
+    /* border: 1px solid rgb(255, 192, 2); */
+}
 footer ul li{
     list-style: none;
+    flex-shrink: 1;
+    /* border: 1px solid rgb(0, 255, 47); */
 }
 
 footer ul li a{
     
     text-decoration: none;
     color: white;
+    /* border: 1px solid rgb(255, 255, 255); */
 }
 
 footer .quickLinks
 {
+    padding-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     height: inherit;
     justify-content: start;
     align-items: center;
-    /* border: 2px solid red; */
+    /* border: 1px solid red; */
+    font-size: 0.9rem;
     /* padding: 20px; */
 
 }
 footer .quickLinks ul{
 
-    justify-content: center;
+    justify-content: start;
+    align-items: start;
     height: inherit;
     width: inherit;
     /* margin-top: 30px; */
@@ -131,19 +155,72 @@ footer .quickLinks ul{
 
 footer .quickLinks ul li{
 
-    align-items: start;
-    justify-content: start;
+    /* align-items: start; */
+    /* justify-content: start; */
     /* border: 2px solid gray; */
     margin: 10px 0px;
 
 }
-footer .quickLinks ul li a{
-    /* gap:20px; */
+
+
+
+
+footer .socialMediaLinks {
+    position: absolute;
+    bottom: 30px;
+    /* right: 20px; */
+    /* left: 0px; */
+    /* height: inherit; */
+    /* margin: 30px; */
+    /* border: 2px solid rgb(255, 0, 0);     */
+    /* justify-self: end; */
+    /* align-self: end; */
+    /* padding: 0px 23px 23px 23px; */
 }
 
-footer .socialMediaLinks img, .contactMe img{
+footer .socialMediaLinks ul{
+
+    /* margin: 20px    0px; */
+    flex-direction: row;
+
+    /* border: 2px solid rgb(0, 255, 8);  */
+}
+
+footer .socialMediaLinks ul li{
+    /* border: 2px solid rgb(252, 252, 0);  */
+}
+ footer .socialMediaLinks ul li a{
+    /* border: 2px solid rgb(255, 1, 217);  */
+    margin: 15px;
+ }
+
+ footer .socialMediaLinks img, .contactMe img{
     height: 30px;
     width: 30px;
 }
+
+footer .backToTop{
+    position: absolute;
+    top:-30px;
+}
+
+footer .backToTop img{
+    width: 60px;
+    height: 60px;
+}
     
+footer .copyrightBar
+{ 
+    position: absolute;
+    bottom: 0px;
+    /* bottom: 0px; */
+    /* z-index: 10; */
+    /* align-self: end; */
+    background-color: rgb(0, 3, 38);
+    /* justify-self:center ; */
+    /* border: 2px solid red; */
+    padding: 5px   0px;
+    width: 100%;
+  /* padding: 20px; */
+}
 
