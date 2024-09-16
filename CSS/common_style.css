@@ -4,30 +4,31 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    background:linear-gradient(to left,rgb(2, 2, 77),rgb(0, 46, 73));
+    background: linear-gradient(to left, rgb(2, 2, 77), rgb(0, 46, 73));
     /* background:linear-gradient(to left,rgb(255, 178, 251),rgb(174, 225, 255)); */
     background-attachment: fixed;
     color: white;
 }
 
-header{
+header {
     display: flex;
-    position:sticky;
+    position: sticky;
+    border: 2px solid white;
+    width: 100%;
     margin: 3vh 2vw;
     top: 20px;
     z-index: 10;
     /* filter: blur(10px);  */
-    
+
 
 }
 
-nav .right
-{
+nav .right {
     display: flex;
     border: 0px;
     margin: 0px;
@@ -42,19 +43,19 @@ nav {
     background-color: rgba(0, 0, 0, 0.308);
     backdrop-filter: blur(10px);
     /* box-shadow: 3px 3px 3px black; */
-    
+
     /* background:linear-gradient(to left,rgb(0, 46, 73),rgb(2, 2, 77)); */
-    border:2px solid rgb(223, 240, 255);
+    border: 2px solid rgb(223, 240, 255);
     /* border-left: 1px solid rgba(255, 255, 255, 0.192); */
     /* border-top: 1px solid rgba(255, 255, 255, 0.199); */
-    outline:none;
+    outline: none;
     border-radius: 35px;
     /* margin: 10px 40px; */
 
 }
 
 nav ul {
-    display: flex;  
+    display: flex;
     justify-content: center;
     margin-right: 30px;
 
@@ -96,16 +97,16 @@ footer {
     justify-content: center;
     align-items: center;
     height: 300px;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 
     /* border-radius: 40px; */
-    
-    
-    
+
+
+
 }
-footer *
-{
+
+footer * {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
@@ -114,24 +115,24 @@ footer *
     /* flex-grow: 1; */
 }
 
-footer ul{
+footer ul {
     /* border: 1px solid rgb(255, 192, 2); */
 }
-footer ul li{
+
+footer ul li {
     list-style: none;
     flex-shrink: 1;
     /* border: 1px solid rgb(0, 255, 47); */
 }
 
-footer ul li a{
-    
+footer ul li a {
+
     text-decoration: none;
     color: white;
     /* border: 1px solid rgb(255, 255, 255); */
 }
 
-footer .quickLinks
-{
+footer .quickLinks {
     position: absolute;
     left: 300px;
     padding-top: 20px;
@@ -145,17 +146,18 @@ footer .quickLinks
     /* padding: 20px; */
 
 }
-footer .quickLinks ul{
+
+footer .quickLinks ul {
 
     justify-content: start;
     align-items: start;
     height: inherit;
     width: inherit;
     /* margin-top: 30px; */
-    
+
 }
 
-footer .quickLinks ul li{
+footer .quickLinks ul li {
 
     /* align-items: start; */
     /* justify-content: start; */
@@ -180,7 +182,7 @@ footer .socialMediaLinks {
     /* padding: 0px 23px 23px 23px; */
 }
 
-footer .socialMediaLinks ul{
+footer .socialMediaLinks ul {
 
     /* margin: 20px    0px; */
     flex-direction: row;
@@ -188,32 +190,34 @@ footer .socialMediaLinks ul{
     /* border: 2px solid rgb(0, 255, 8);  */
 }
 
-footer .socialMediaLinks ul li{
+footer .socialMediaLinks ul li {
     /* border: 2px solid rgb(252, 252, 0);  */
 }
- footer .socialMediaLinks ul li a{
+
+footer .socialMediaLinks ul li a {
     /* border: 2px solid rgb(255, 1, 217);  */
     margin: 15px;
- }
+}
 
- footer .socialMediaLinks img, .contactMe img{
+footer .socialMediaLinks img,
+.contactMe img {
     height: 30px;
     width: 30px;
 }
 
-footer .backToTop{
+footer .backToTop {
     position: absolute;
-    top:-30px;
+    top: -30px;
     filter: invert();
 }
 
-footer .backToTop img{
+footer .backToTop img {
     width: 60px;
     height: 60px;
 }
-    
-footer .copyrightBar
-{ 
+
+footer .copyrightBar {
+    display: none;
     position: absolute;
     bottom: 0px;
     /* bottom: 0px; */
@@ -222,21 +226,20 @@ footer .copyrightBar
     background-color: rgb(0, 3, 38);
     /* justify-self:center ; */
     /* border: 2px solid red; */
-    padding: 5px   0px;
+    padding: 5px 0px;
     width: 100%;
-  /* padding: 20px; */
+    /* padding: 20px; */
 }
 
 
-footer .contactMe
-{
+footer .contactMe {
     position: absolute;
     top: 70px;
-   width: 30%;
+    width: 30%;
     /* border: 2px solid red; */
 }
 
-footer .contactMe ul{
+footer .contactMe ul {
     /* border:2px solid orange; */
     align-items: start;
 
@@ -251,7 +254,5 @@ footer .contactMe ul li {
     flex-grow: 1;
     flex-direction: row;
     padding: 10px;
-    gap:20px
+    gap: 20px
 }
-
-

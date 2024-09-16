@@ -1,5 +1,26 @@
 
 
-@media () {
+@media (max-width: 1200px) {
+    body{
+        background: red;
+    }
+
+    header {
+        display: flex;
+        position: sticky;
+        margin: 3vh 2vw;
+        top: 20px;
+        z-index: 10;
+        border: 2px solid white;
+        /* filter: blur(10px);  */
+    
+    
+    }
+    nav .right {
+        display: none;
+        border: 0px;
+        margin: 0px;
+    }
+
     
 }
