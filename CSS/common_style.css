@@ -9,18 +9,23 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     background: linear-gradient(to left, rgb(2, 2, 77), rgb(0, 46, 73));
     /* background:linear-gradient(to left,rgb(255, 178, 251),rgb(174, 225, 255)); */
     background-attachment: fixed;
     color: white;
+    /* overflow-x: hidden; */
 }
 
 header {
     display: flex;
     position: sticky;
-    border: 2px solid white;
-    width: 100%;
-    margin: 3vh 2vw;
+    /* border: 2px solid white; */
+    /* width: inherit; */
+    margin: 2% 3%;
     top: 20px;
     z-index: 10;
     /* filter: blur(10px);  */
@@ -32,6 +37,9 @@ nav .right {
     display: flex;
     border: 0px;
     margin: 0px;
+}
+.menu_icon{
+    display: none;
 }
 
 nav {
@@ -84,6 +92,9 @@ nav ul li a:hover {
 .Heading {
     margin-left: 40px;
     font-size: 1.6rem;
+}
+.short_heading{
+    display: none;
 }
 
 footer {
