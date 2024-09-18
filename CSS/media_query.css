@@ -2,7 +2,7 @@
 
     body {
 
-        background: black;
+        /* background: black; */
     }
 
     header {
@@ -140,7 +140,7 @@
         display: flex;
         /* width: 100vw; */
         /* flex-shrink: 1; */
-        background-color: rgb(24, 24, 24);
+        background-color: rgba(44, 44, 44, 0.57);
         justify-content: center;
         align-items: center;
         height: 300px;
