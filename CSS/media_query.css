@@ -69,7 +69,7 @@
 
     .leftsection {
         /* background-color: black; */
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 30px;
         /* background-color: black; */
 
@@ -184,7 +184,7 @@
         height: 20px;
         width: 2px;
         background-color: red;
-    }
+    }   
 
     footer .quickLinks {
         position: relative;
@@ -200,7 +200,7 @@
         /* justify-content: start; */
         /* align-items: center; */
         /* border: 1px solid red; */
-        font-size: 0.8rem;
+        font-size: 0.8rem;          
         /* padding: 20px; */
 
     }
