@@ -118,13 +118,19 @@
         justify-content: space-around;
     }
 
+    .contact_info {
+        display: none;
+    }
+
+    /******************* Contact container *******************/
+
     main .contact_container {
         /* height: 100vh; */
         display: flex;
 
         /* justify-content: space-evenly; */
         /* align-items: first baseline; */
-        margin-top: 100px;
+        margin-top: 5%;
 
     }
 
