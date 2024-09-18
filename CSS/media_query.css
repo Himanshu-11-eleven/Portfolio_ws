@@ -17,9 +17,48 @@
 
     }
 
-    nav {
-        height: 40px;
+    /*************** off screen menu ********************/
+
+
+
+    .off_screen_menu {
+        
+        display: flex;
+        background-color: rgba(41, 41, 41, 0.842);
+        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        position: fixed;
+        top: 0px;
+        right: -300px;  
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        font-size: 1.3rem;
+        transition: .3s ease;
+        
+        
+
     }
+    .off_screen_menu.active{
+        /* background-color: rgb(224, 0, 0);    */
+        right: 0px;
+    }
+
+    .off_screen_menu li {
+
+        list-style: none;
+    }
+
+    .off_screen_menu li a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    nav {
+        height: 50px;
+    }   
 
     .short_heading {
         display: flex;
@@ -33,18 +72,52 @@
 
     .menu_icon {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-content: center;
-        margin-top: 5px;
-        margin-right: 12px;
+        align-items: center;
+        /* border: 1px solid red; */
+        height: 40px;
+        width: 40px;
+        position: relative;
+        margin-left: auto;
+        margin-right: 15px;
+
     }
 
-    .menu_icon img {
-        height: 20px;
-        width: 20px;
-        filter: invert();
+    .menu_icon span{
+        /* border: 1px solid white; */
+        height: 5px;
+        width: 30px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
 
+        transform: translate(-50%, -50%); 
+        transform: .3x ease;
+    }
+    .menu_icon span:nth-child(1){
+        top: 30%;
 
+    }
+    .menu_icon span:nth-child(3){
+        top: 70%;   
+
+    }
+    .menu_icon.active span:nth-child(1){
+        top: 50%;
+        transform: translate(-50%,-50%) rotate(45deg);
+        /* z-index: 10; */
+    }
+    .menu_icon.active span:nth-child(2){
+        opacity: 0;
+    }
+
+    .menu_icon.active span:nth-child(3){
+        top: 50%;
+        transform: translate(-50%,-50%) rotate(-45deg);
+        /* z-index: 10; */
     }
 
     nav .right {
@@ -55,7 +128,7 @@
         border: 0;
         border-radius: 100%;
         background: rgb(131, 91, 250);
-        height: 1vh;
+        height: 3px;
         margin: auto 20px;
 
     }
