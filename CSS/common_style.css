@@ -248,25 +248,29 @@ footer .copyrightBar {
 
 footer .contactMe {
     position: absolute;
+    align-items: start;
     top: 70px;
-    width: 30%;
+    width: 15%;
     /* border: 2px solid red; */
 }
 
 footer .contactMe ul {
+    /* position: absolute; */
     /* border:2px solid orange; */
     align-items: start;
-
-
-
 }
 
 footer .contactMe ul li {
     /* border: 2px solid white; */
-    justify-content: flex-start;
-    width: inherit;
     flex-grow: 1;
-    flex-direction: row;
     padding: 10px;
     gap: 20px
+}
+footer .contactMe ul li a{
+    /* border: 2px solid rgb(0, 234, 255); */
+    flex-direction: row;
+    gap: 20px;
+    /* padding: 30px; */
+
+    
 }
