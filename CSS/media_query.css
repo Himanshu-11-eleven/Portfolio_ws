@@ -298,12 +298,12 @@
         font-size: 0.8rem;
         top: 50px;
         width: 70%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         flex-grow: 1;
     }
 
     footer .contactMe ul {
-        border: 2px solid orange;
+        /* border: 2px solid orange; */
         align-items: right;
 
 
@@ -311,7 +311,7 @@
     }
 
     footer .contactMe ul li {
-        border: 2px solid white;
+        /* border: 2px solid white; */
         width: inherit;
         flex-grow: 1;
         flex-direction: row;
@@ -324,7 +324,7 @@
     footer .contactMe ul li a {
         /* border: 2px solid rgb(43, 6, 255); */
         flex-direction: row;
-        padding-left: 20px;
+        padding-left: 10px;
         gap: 10px;
         margin: 0px;
     }
