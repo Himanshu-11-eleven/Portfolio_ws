@@ -29,7 +29,7 @@
         width: 100%;
         max-width: 300px;
         position: fixed;
-        top: 0px;
+        top: 10%;
         right: -300px;  
         display: flex;
         justify-content: left;
@@ -95,7 +95,7 @@
         left: 50%;
 
         transform: translate(-50%, -50%); 
-        transform: .3x ease;
+        transition:.3s ease;
     }
     .menu_icon span:nth-child(1){
         top: 30%;
@@ -104,6 +104,9 @@
     .menu_icon span:nth-child(3){
         top: 70%;   
 
+    }
+    .menu_icon.active{
+        z-index: 10;
     }
     .menu_icon.active span:nth-child(1){
         top: 50%;
